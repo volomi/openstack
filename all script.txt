@@ -11,3 +11,4 @@ sudo yum install -y openstack-packstack
 sudo packstack --gen-answer-file /root/answers.txt
 vi /root/answers.txt
 sudo packstack --answer-file /root/answers.txt
+cat /root/keystonerc_admin
